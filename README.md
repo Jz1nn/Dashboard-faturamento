@@ -14,3 +14,8 @@
 - plotly.graph_objects
 # Dashboard de Vendas
 - Este projeto também inclui a criação de um dashboard interativo usando a biblioteca Plotly. O dashboard exibe gráficos de barras que mostram os produtos mais vendidos, os produtos que mais faturam e as lojas/cidades que mais vendem. O usuário pode interagir com os gráficos para ver informações mais detalhadas.
+# Anotações e atualizações do progresso:
+- Primeiro fiz a importação, tratamento e compilação da base de dados. Fiz também alguns calculos de faturamento.
+- Fiz alguns subplots e adicionei os gráficos aos subplots.
+- Como o tempo está apertado e preciso voltar a estudar, pretendo continuar posteriormente e adicionar mais informações e gráficos.
+# Progresso visual:
