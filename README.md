@@ -22,14 +22,3 @@
 # Progresso visual:
 ## Visão geral
 ![Visão geral](images/Dashboard.png)
-
-## Gráficos individuais
-
-#### Produtos Mais Vendidos
-![Produtos Mais Vendidos](images/dashboard-produtos-mais-vendidos.png)
-
-#### Lojas Que Mais Vendem
-![Lojas Que Mais Vendem](images/dashboard-lojas-que-mais-vendem.png)
-
-#### Produtos Que Mais Faturaram
-![Produtos Que Mais Faturaram](images/dashboard-produtos-que-mais-faturaram.png)
