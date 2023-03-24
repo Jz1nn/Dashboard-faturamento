@@ -20,14 +20,16 @@
 - Fiz alguns subplots e adicionei os gráficos aos subplots.
 - Como o tempo está apertado e preciso voltar a estudar, pretendo continuar posteriormente e adicionar mais informações e gráficos.
 # Progresso visual:
-### Visão geral
-![Visão geral](./images/dashboard.png)
+## Visão geral
+![Visão geral](images/Dashboard.png)
 
-### Gráficos individuais
-<table>
-  <tr>
-    <td><img src="./images/dashboard-produtos-mais-vendidos.png" alt="Produtos Mais Vendidos"></td>
-    <td><img src="./images/dashboard-lojas-que-mais-vendem.png" alt="Lojas Que Mais Vendem"></td>
-    <td><img src="./images/dashboard-produtos-que-mais-faturaram.png" alt="Produtos Que Mais Faturaram"></td>
-  </tr>
-</table>
+## Gráficos individuais
+
+#### Produtos Mais Vendidos
+[![Produtos Mais Vendidos](images/dashboard-produtos-mais-vendidos.png)](images/dashboard-produtos-mais-vendidos.png)
+
+#### Lojas Que Mais Vendem
+[![Lojas Que Mais Vendem](images/dashboard-lojas-que-mais-vendem.png)](images/dashboard-lojas-que-mais-vendem.png)
+
+#### Produtos Que Mais Faturaram
+[![Produtos Que Mais Faturaram](images/dashboard-produtos-que-mais-faturaram.png)](images/dashboard-produtos-que-mais-faturaram.png)
