@@ -1,5 +1,5 @@
 # Projeto Dashboard de Vendas e Devoluções
-- O projeto consiste em analisar dados de vendas e devoluções de várias cidades no Brasil, com objetivo de identificar qual produto gerou maior faturamento, qual produto teve mais devoluções e qual foi o valor de faturamento de cada item. Posteriormente o projeto será aperfeiçoado, adicionando novos gráficos e sugestões de decisão de negócio baseado nos resultados.
+- O projeto consiste em analisar dados de vendas e devoluções de várias cidades no Brasil, com objetivo de identificar qual produto gerou maior faturamento, qual produto teve mais devoluções e qual foi o valor de faturamento de cada item. Posteriormente o projeto será aperfeiçoado, adicionando novos gráficos e sugestões de decisão de negócio baseado nos resultados. Este repositório também conta com chaves de acesso e assinatura, contendo selo de verificado em cada commit.
 # Processos envolvidos no projeto
 - Importação de base de dados
 - Tratamento e compilação das bases de dados
