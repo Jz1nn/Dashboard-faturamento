@@ -16,7 +16,7 @@ tabela_total = pd.DataFrame()
 
 for arquivo in lista_arquivo:
     if "Vendas" in arquivo:
-        tabela = pd.read_csv(f"C:\\Users\\benbo\\OneDrive\\Área de Trabalho\\PROJETOS\\PROJETOS\\Dashboard-vendas-devolucoes\\Vendas\\{arquivo}")
+        tabela = pd.read_csv(f"C:\\Users\\benbo\\OneDrive\\Área de Trabalho\\PROJETOS\\Dashboard-vendas-devolucoes\\Vendas\\{arquivo}")
         tabela_total = pd.concat([tabela_total, tabela], ignore_index=True)
 
 # Calcular o produto mais vendido (em quantidade)
