@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 # Percorrer todos os arquivos da pasta base de dados (Vendas)
 
-lista_arquivo = os.listdir('C:\\Users\\benbo\\OneDrive\\Área de Trabalho\\PROJETOS\\Dashboard-vendas-devolucoes\\Vendas')
+lista_arquivo = os.listdir(os.path.join(os.getcwd(), 'Vendas'))
 
 # Importar base de dados de vendas para um DataFrame
 
@@ -16,7 +16,7 @@ tabela_total = pd.DataFrame()
 
 for arquivo in lista_arquivo:
     if "Vendas" in arquivo:
-        tabela = pd.read_csv(f"C:\\Users\\benbo\\OneDrive\\Área de Trabalho\\PROJETOS\\Dashboard-vendas-devolucoes\\Vendas\\{arquivo}")
+        tabela = pd.read_csv(os.path.join(os.getcwd(), 'Vendas', arquivo))
         tabela_total = pd.concat([tabela_total, tabela], ignore_index=True)
 
 # Calcular o produto mais vendido (em quantidade)
