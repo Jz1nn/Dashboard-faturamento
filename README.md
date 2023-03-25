@@ -22,3 +22,7 @@
 # Progresso visual:
 ## Visão geral
 ![Visão geral](images/Dashboard.png)
+## Gráficos individuais
+![Gráficos individuais](images/Dashboard-lojas-que-mais-vendem.png)
+![Gráficos individuais](images/Dashboard-produtos-mais-vendidos.png)
+![Gráficos individuais](images/Dashboard-produtos-que-mais-faturaram.png)
