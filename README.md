@@ -20,8 +20,8 @@
 - Como o tempo está apertado e preciso voltar a estudar, pretendo continuar posteriormente e adicionar mais informações e gráficos.
 # Progresso visual:
 ## Visão geral
-![Visão geral](images/Dashboard.png)
+![Visão geral](imagens/Dashboard.png)
 ## Gráficos individuais
-![Gráficos individuais](images/Dashboard-lojas-que-mais-vendem.png)
-![Gráficos individuais](images/Dashboard-produtos-mais-vendidos.png)
-![Gráficos individuais](images/Dashboard-produtos-que-mais-faturaram.png)
+![Gráficos individuais](imagens/Dashboard-lojas-que-mais-vendem.png)
+![Gráficos individuais](imagens/Dashboard-produtos-mais-vendidos.png)
+![Gráficos individuais](imagens/Dashboard-produtos-que-mais-faturaram.png)
