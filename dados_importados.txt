@@ -1,0 +1,14 @@
+     Unnamed: 0     SKU    Produto  Quantidade Vendida  ...        Data            Loja Preco Unitario Unnamed: 8
+0            17  HL4379  Televis�o                   2  ...   2/25/2018  Belo Horizonte           2500        NaN
+1            25  HL4379  Televis�o                   1  ...   2/20/2018  Belo Horizonte           2500        NaN
+2            27  HL1918     iPhone                   5  ...    7/7/2018  Belo Horizonte           5300        NaN
+3            54  HL1918     iPhone                   5  ...  12/26/2018  Belo Horizonte           5300        NaN
+4            67  HL8851   Notebook                   5  ...    6/8/2018  Belo Horizonte           3500        NaN
+..          ...     ...        ...                 ...  ...         ...             ...            ...        ...
+644        9910  HL1148     C�mera                   4  ...   2/17/2018  Belo Horizonte           2100        NaN
+645        9927  HL2714     Tablet                   2  ...   1/29/2018  Belo Horizonte           1600        NaN
+646        9932  HL1918     iPhone                   1  ...   5/11/2018  Belo Horizonte           5300        NaN
+647        9942  HL4379  Televis�o                   1  ...    2/9/2018  Belo Horizonte           2500        NaN
+648        9978  HL8851   Notebook                   2  ...  12/28/2018  Belo Horizonte           3500        NaN
+
+[649 rows x 10 columns]
