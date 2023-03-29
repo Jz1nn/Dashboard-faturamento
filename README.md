@@ -18,6 +18,7 @@
 - Primeiro fiz a importação, tratamento e compilação da base de dados. Fiz também alguns calculos de faturamento.
 - Fiz alguns subplots e adicionei os gráficos aos subplots.
 - Como o tempo está apertado e preciso voltar a estudar, pretendo continuar posteriormente e adicionar mais informações e gráficos.
+- 28/03: Comecei aplicar alguns conceitos de modulos, porém não está finalizado. Consegui criar o modulo que importa os dados e chamar ele em um outro modulo onde são feitos os calculos. Fiz alguns arquivos .txt para visualizar o resultado e criar as proximas classes, porém não estou conseguindo fazer o calculo da loja que mais vendeu em faturamento. Pelo que entendi preciso retornar o resultado da classe anterior para usar nessa nova classe... Procurei algo que possa usar de exemplo no conteúdo da faculdade mas não encontrei, estou tentando pensar em algo relacionando a lógica do conteúdo e a situação-problema. Estive pensando desde ontem, sonhei com algumas possibilidades, vou testar hoje. Vou tentar fazer pelo menos essa parte logo, ainda tenho conteúdos para estudar.
 # Progresso visual:
 ## Visão geral
 ![Visão geral](imagens/Dashboard.png)
