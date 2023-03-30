@@ -1,9 +1,0 @@
-            Faturamento
-Produto                
-iPhone         47562200
-Televis�o      14827500
-Notebook       11371500
-Android        10822200
-C�mera          5890500
-Tablet          4673600
-SmartWatch      4172000
