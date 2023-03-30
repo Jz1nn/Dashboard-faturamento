@@ -17,3 +17,4 @@ class importarDados:
                 tabela_total = pd.concat([tabela_total, tabela], ignore_index=True)
 
         return tabela_total
+    
