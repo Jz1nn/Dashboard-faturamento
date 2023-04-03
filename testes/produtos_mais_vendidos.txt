@@ -1,9 +1,0 @@
-            Quantidade Vendida
-Produto                       
-iPhone                    8974
-Televis�o                 5931
-Notebook                  3249
-Android                   3183
-SmartWatch                2980
-Tablet                    2921
-C�mera                    2805

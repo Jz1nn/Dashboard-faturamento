@@ -1,8 +1,0 @@
-      Produto  Faturamento
-6      iPhone     47562200
-5   Televisão     14827500
-2    Notebook     11371500
-0     Android     10822200
-1      Câmera      5890500
-4      Tablet      4673600
-3  SmartWatch      4172000
