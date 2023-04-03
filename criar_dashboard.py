@@ -2,11 +2,9 @@
 
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from matplotlib import pyplot as plt
 from importar_dados import ImportadorDados
 from produtos_mais_vendidos import ProdutosMaisVendidos
 from produtos_mais_faturaram import FaturamentoProdutos
