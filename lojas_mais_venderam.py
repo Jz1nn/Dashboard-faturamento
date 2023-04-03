@@ -1,31 +1,23 @@
-# Calcular a lojas que mais venderam (em faturamento)
+# Calcular a lojas (cidades) que mais venderam (em faturamento)
 
 import pandas as pd
+from importar_dados import ImportadorDados
+from produtos_mais_vendidos import ProdutosMaisVendidos
+from produtos_mais_faturaram import FaturamentoProdutos
 
-from importar_dados import importarDados
+class LojasMaisFaturaram:
+    def __init__(self, tabela_total, tabela_faturamento):
+        self.tabela_total = tabela_total
+        self.tabela_faturamento = tabela_faturamento
 
-from produtos_mais_faturaram import produtosMaisFaturaram
+    def faturamento_lojas(self):
+        faturamento_lojas = self.tabela_total.groupby('Loja')['Faturamento'].sum().sort_values(ascending=False)
+        return faturamento_lojas
 
-class lojasMaisVenderam:
-    def __init__(self, tabela_total_e_faturamento):
-        self.tabela_total_e_faturamento = tabela_total_e_faturamento.copy()
-
-    def calcular_lojas_mais_venderam(self):
-        lojas_mais_venderam = self.tabela_total_e_faturamento.groupby('Loja').sum()
-        lojas_mais_venderam = lojas_mais_venderam[['Faturamento']].sort_values(by='Faturamento', ascending=False)
-        return lojas_mais_venderam
-    
-importador = importarDados()
-tabela_total = importador.importar_dados()
-
-# Calcula os produtos que mais faturaram
-produtos_mais_faturaram = produtosMaisFaturaram(tabela_total)
-mais_faturaram = produtos_mais_faturaram.calcular_tabela_total_e_faturamento()
-
-# Calcula as lojas que mais venderam
-lojas_mais_venderam = lojasMaisVenderam(mais_faturaram)
-mais_venderam = lojas_mais_venderam.calcular_lojas_mais_venderam()
-
-# Cria o arquivo de texto
-with open('lojas_mais_venderam.txt', 'w') as arquivo:
-    arquivo.write(mais_venderam.to_string())
+# importador = ImportadorDados()
+# tabela_total = importador.importar_dados()
+# faturamento_produtos = FaturamentoProdutos(tabela_total)
+# tabela_faturamento = faturamento_produtos.faturamento_produtos()
+# faturamento_por_loja = LojasMaisFaturaram(tabela_total, tabela_faturamento)
+# resultado = faturamento_por_loja.faturamento_lojas()
+# print(resultado.head(5))

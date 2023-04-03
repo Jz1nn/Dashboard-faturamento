@@ -1,23 +1,28 @@
-# Calcula o produto que mais faturou (quantidade vendida * preço unitário)
+# Calcula o produtos que mais faturaram (faturamento)
 
 import pandas as pd
-from importar_dados import importarDados
+from importar_dados import ImportadorDados
 
-class produtosMaisFaturaram:
+class FaturamentoProdutos:
     def __init__(self, tabela_total):
-        self.tabela_total = tabela_total.copy()
+        self.tabela_total = tabela_total
 
-    def calcular_produtos_mais_faturaram(self):
-        tabela_faturamento = self.tabela_total.copy()
-        tabela_faturamento['Faturamento'] = tabela_faturamento['Quantidade Vendida'] * tabela_faturamento['Preco Unitario']
-        tabela_faturamento = tabela_faturamento.groupby('Produto')['Faturamento'].sum().reset_index()
-        produtos_mais_faturaram = tabela_faturamento.sort_values(by='Faturamento', ascending=False)
-        return produtos_mais_faturaram
+    def faturamento_produtos(self):
+        self.tabela_total['Faturamento'] = self.tabela_total['Quantidade Vendida'] * self.tabela_total['Preco Unitario']
+        tabela_faturamento = self.tabela_total.groupby('Produto')['Faturamento'].sum().sort_values(ascending=False)
+        return self.tabela_total
 
-    def calcular_tabela_total_e_faturamento(self):
-        tabela_faturamento = self.tabela_total.copy()
-        tabela_faturamento['Faturamento'] = tabela_faturamento['Quantidade Vendida'] * tabela_faturamento['Preco Unitario']
-        tabela_faturamento = tabela_faturamento.groupby('Produto')['Faturamento'].sum().reset_index()
-        mais_faturaram = tabela_faturamento.sort_values(by='Faturamento', ascending=False)
-        tabela_total_e_faturamento = pd.merge(self.tabela_total, tabela_faturamento, on='Produto', how='left')
-        return tabela_total_e_faturamento
+    def faturamento_individual_produtos(self):
+        self.tabela_total['Faturamento'] = self.tabela_total['Quantidade Vendida'] * self.tabela_total['Preco Unitario']
+        tabela_faturamento = self.tabela_total.groupby('Produto')['Faturamento'].sum().sort_values(ascending=False)
+        return tabela_faturamento
+
+# testar a classe
+# importador = ImportadorDados()
+# tabela_total = importador.importar_dados()
+# resultado = FaturamentoProdutos(tabela_total)
+# geral = resultado.faturamento_produtos()
+# individual = resultado.faturamento_individual_produtos()
+# print(individual.info())
+# print(geral.head(5))
+# print(individual.head(5))
