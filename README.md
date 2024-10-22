@@ -17,8 +17,8 @@
 - This project also includes the creation of an interactive dashboard using the Plotly library, where the user can interact with the graphs to see more detailed information.
 # Visual progress:
 ## Overview
-![Overview](images/Dashboard.png)
+![Visão geral](imagens/Dashboard.png)
 ## Individual charts
-![Individual charts](images/Dashboard-top-selling-stores.png)
-![Individual charts](images/Dashboard-top-selling-products.png)
-![Individual charts](images/Dashboard-top-selling-products.png)
+![Gráficos individuais](imagens/Dashboard-lojas-que-mais-vendem.png)
+![Gráficos individuais](imagens/Dashboard-produtos-mais-vendidos.png)
+![Gráficos individuais](imagens/Dashboard-produtos-que-mais-faturaram.png)
