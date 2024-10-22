@@ -1,24 +1,24 @@
-# Dashboard de Vendas
-- O projeto consiste em analisar dados de vendas de várias cidades no Brasil, com objetivo de identificar quais produtos foram mais vendidos (em quantidade e faturamento) e lojas mais venderam (em faturamento). Posteriormente o projeto será aperfeiçoado, adicionando novos gráficos e sugestões de decisão de negócio baseado nos resultados. Este repositório também conta com assinaturas em cada commit (selo de verificação).
-# Processos envolvidos no projeto
-- Importação de base de dados
-- Tratamento e compilação das bases de dados
-- Cálculo do produto mais vendido (em quantidade)
-- Cálculo do produto que mais faturou (em faturamento)
-- Cálculo da loja/cidade que mais vendeu (em faturamento)
-- Criação de um Dashboard avançado e interativo
-# Bibliotecas utilizadas
+# Sales Dashboard
+- The project consists of analyzing sales data from several cities in Brazil, with the aim of identifying which products were the most sold (in quantity and revenue) and which stores sold the most (in revenue). The project will later be improved, adding new graphs and suggestions for business decisions based on the results. This repository also has signatures on each commit (verification seal).
+# Processes involved in the project
+- Importing the database
+- Processing and compiling the databases
+- Calculating the best-selling product (in quantity)
+- Calculating the product that sold the most (in revenue)
+- Calculating the store/city that sold the most (in revenue)
+- Creating an advanced and interactive Dashboard
+# Libraries used
 - os
 - pandas
 - plotly.express
 - plotly.subplots
 - plotly.graph_objects
-# Dashboard de Vendas
-- Este projeto também inclui a criação de um dashboard interativo usando a biblioteca Plotly, onde o usuário pode interagir com os gráficos para ver informações mais detalhadas.
-# Progresso visual:
-## Visão geral
-![Visão geral](imagens/Dashboard.png)
-## Gráficos individuais
-![Gráficos individuais](imagens/Dashboard-lojas-que-mais-vendem.png)
-![Gráficos individuais](imagens/Dashboard-produtos-mais-vendidos.png)
-![Gráficos individuais](imagens/Dashboard-produtos-que-mais-faturaram.png)
+# Sales Dashboard
+- This project also includes the creation of an interactive dashboard using the Plotly library, where the user can interact with the graphs to see more detailed information.
+# Visual progress:
+## Overview
+![Overview](images/Dashboard.png)
+## Individual charts
+![Individual charts](images/Dashboard-top-selling-stores.png)
+![Individual charts](images/Dashboard-top-selling-products.png)
+![Individual charts](images/Dashboard-top-selling-products.png)
